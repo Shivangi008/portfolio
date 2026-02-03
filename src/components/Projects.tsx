@@ -1,17 +1,34 @@
 const projects = [
   {
     title: "Task Management Dashboard",
-    description: "React-based dashboard with REST API integration and performance-focused UI. Implemented responsive layouts ensuring cross-device compatibility.",
-    tags: ["React.js", "REST API", "Responsive UI"],
+    description:
+      "Built a React-based task management dashboard with REST API integration, enabling users to manage tasks efficiently. Implemented responsive layouts and optimized UI performance for smooth cross-device experience.",
+    tags: ["React.js", "REST API", "Responsive UI", "Dashboard"],
     href: "#",
   },
   {
     title: "Video Calling Application (Let's Meet)",
-    description: "Built responsive React UI for a video calling app, focused on smooth and consistent user experience across devices.",
-    tags: ["React.js", "Responsive Design", "Real-time"],
+    description:
+      "Developed a responsive React frontend for a video calling application, focusing on smooth UI interactions and consistent user experience across devices.",
+    tags: ["React.js", "Real-time", "Responsive Design", "UI/UX"],
+    href: "#",
+  },
+  {
+    title: "Excel File Management Tool",
+    description:
+      "Created a React-based Excel file management tool allowing users to upload, parse, view, and download Excel files. Focused on handling large datasets and providing a clean, user-friendly interface.",
+    tags: ["React.js", "Excel Upload", "Data Handling", "File Management"],
+    href: "#",
+  },
+  {
+    title: "Movies Explorer Application",
+    description:
+      "Built a movie discovery application using React that fetches data from external APIs to display trending and popular movies. Implemented search, filtering, and responsive UI for enhanced user experience.",
+    tags: ["React.js", "API Integration", "Search", "Responsive UI"],
     href: "#",
   },
 ];
+
 
 export function Projects() {
   return (
